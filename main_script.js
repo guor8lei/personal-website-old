@@ -66,3 +66,23 @@ $(document).ready(function () {
         	}
         );
 });
+
+$(function() {
+	var $msg = $('#first_title');
+	var $word_list = $('#first_title').text().split("");
+  	$('#first_title').text("");
+ 	$.each($word_list, function(idx, elem) {
+    	var new_elem = $("<span/>").text(elem).css({
+      		opacity: 0
+    	});
+    	new_elem.appendTo($msg);
+    	new_elem.delay(idx * 70);
+    	new_elem.fadeTo('slow',1);
+ 	});
+
+	setTimeout(function() {
+		$('#second_title').fadeTo('slow',1);
+	}, 2000);
+  
+
+});
