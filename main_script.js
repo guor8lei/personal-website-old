@@ -34,4 +34,35 @@ $(".logo").hover(
 	function() {$(this).fadeTo("fast", 0.7);},
 	function() {$(this).fadeTo("fast", 1);});
 
+$("#nih").hover(
+	function() {
+		$("#nih").fadeTo("fast", 0.3);
+		$("#nih_caption").fadeTo("fast", 1);
+	},
+	function() {
+		$("#nih").fadeTo("fast", 1);
+		$("#nih_caption").fadeTo("fast", 0);
+	});
 
+$("#website").hover(
+	function() {
+		$("#website").fadeTo("fast", 0.3);
+		$("#web_caption").fadeTo("fast", 1);
+	},
+	function() {
+		$("#website").fadeTo("fast", 1);
+		$("#web_caption").fadeTo("fast", 0);
+		
+	});
+
+$(document).ready(function () {
+    $(".navigation").hover(
+    	function () {
+        	$(".navigation").fadeTo('fast',1);
+        },
+        function () {
+        	if (document.documentElement.scrollTop!=0) {
+        		$(".navigation").fadeTo('fast',0);}
+        	}
+        );
+});
