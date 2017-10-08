@@ -1,3 +1,7 @@
+body {
+	background-color: black;
+}
+
 .title_slide {
 	background-image: url(title_background.jpg);
 	background-size: cover;
@@ -22,7 +26,6 @@
 	font-size: 8vw;
 	line-height: 80vh;	
 	margin: auto;
-	
 }
 
 #second_title {
@@ -49,6 +52,7 @@
 	float: left;
 }
 
+
 .nav_link {
 	display: block;
 	padding: 15px;
@@ -58,16 +62,55 @@
 }
 
 #about {
-	background-color: gray;
-	height: 80vh;
+	background-color: black;
+	height: 100vh;
 }
 
 #projects{
-	background-color: navy;
-	height: 80vh;
+	background-color: black;
+	height: 100vh;
 }
 
 #contact{
-	background-color: gray;
-	height: 80vh;
+	background-color: black;
+	height: 100vh;
 }
+
+.section_title {
+	font-size: 6vw;
+	line-height: 25vh;	
+	margin: auto;
+	color: white;
+	font-family: Harabara, Helvetica;
+	text-align: center;
+}
+
+.about_text {
+	font-size: 20px;
+	margin: auto;
+	color: white;
+	font-family: Arial;
+	text-align: left;
+	max-width: 1000px;
+}
+
+#about_image {
+	float: left;
+    margin: 0px 30px 30px 30px;
+}
+
+.link {
+	color: #9bc2cf;
+	text-decoration: none;
+}
+
+.logo {
+	width: 100px;
+	margin: 50px 50px 40px 40px;
+    padding: 0;
+}
+
+.logo_row {
+	margin: 0;
+    padding: 0;
+}	
