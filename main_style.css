@@ -1,55 +1,224 @@
 body {
-	background-color: black;
+	background-color: white;
 }
 
-.title_slide {
-	background-image: url(images/title_background.jpg);
+.slide {
 	background-size: cover;
+	background-color: white;
 	height: 100vh;
-	width: 100%;  
+	width: 100%;
 	margin: 0;
-    padding: 0;
+  padding: 0;
+	min-height: 600px;
+}
+
+.img-center {
+    display: block;
+		margin-left: auto;
+    margin-right: auto;
 }
 
 @font-face {
-	font-family: Harabara;
-	src: url(Harabara.ttf);
+	font-family: Quicksand-Regular;
+	src: url(fonts/Quicksand-Regular.ttf);
 }
 
-.opening_text {
-	color: white;
-	font-family: Harabara, Helvetica;
-	text-align: center;
+@font-face {
+	font-family: Quicksand-Bold;
+	src: url(fonts/Quicksand-Bold.ttf);
+}
+
+@font-face {
+	font-family: Roboto-Regular;
+	src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+	font-family: Roboto-Light;
+	src: url(fonts/Roboto-Light.ttf);
 }
 
 #first_title {
-	font-size: 8vw;
-	line-height: 80vh;	
-	margin: auto;
+	color: black;
+	font-family: Quicksand-Bold;
+	font-size: 50px;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
 }
 
 #second_title {
-	font-size: 3vw;
-	margin: auto;
-	margin-top: -25vh;
-	opacity: 0;
+	color: 	#A9A9A9;
+	font-family: Roboto-Light;
+	font-size: 30px;
+	text-align: center;
 }
+
+#title_image {
+	border-radius: 50%;
+	margin-bottom: 25px;
+	margin-top: 50px;
+}
+
+.animated {
+	background-repeat: no-repeat;
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+    -webkit-transform: translateY(-60px);
+	}
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-60px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.fadeInDown {
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+    -webkit-transform: translateY(50px);
+	}
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.fadeInUp {
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+}
+
+.section_title {
+	color: black;
+	font-family: Quicksand-Bold;
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 50px;
+	padding-top: 50px;
+}
+
+.about_text {
+	font-size: 20px;
+	margin: auto;
+	color: black;
+	font-family: Roboto-Light;
+	text-align: left;
+	max-width: 1000px;
+}
+
+#about_image {
+	float: left;
+  margin: 0px 30px 10px 0px;
+	border-radius: 50%;
+}
+
+.link {
+	color: #000080;
+	text-decoration: none;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('images/berkeley_fog.jpg');
+
+    /* Full height */
+    height: 100%;
+
+		/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+#title {
+	margin-bottom: 500px;
+}
+
+#menu_text {
+	color: black;
+	font-family: Quicksand-Regular;
+	font-size: 30px;
+	text-align: center;
+	padding: 0px;
+	margin-top: 50px;
+}
+
+.menu_item {
+	text-decoration: none;
+	color: black;
+}
+
+#copyright_icons {
+	background-color: white;
+	font-family: Roboto-Light;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
 
 .navigation_bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
-	font-family: Harabara, Helvetica; 
+	font-family: Harabara, Helvetica;
 	position: fixed;
 	top: 0;
-	width: 100%;  
+	width: 100%;
 	background-color: black;
 	overflow: hidden;
 
 }
 
 .nav_element {
-	display: inline; 
+	display: inline;
 	float: left;
 }
 
@@ -62,11 +231,6 @@ body {
 	font-size: 20px;
 }
 
-#about {
-	background-color: black;
-	height: 100vh;
-}
-
 #projects{
 	background-color: black;
 	height: 100vh;
@@ -77,44 +241,21 @@ body {
 	height: 100vh;
 }
 
-.section_title {
-	font-size: 6vw;
-	line-height: 25vh;	
-	margin: auto;
-	color: white;
-	font-family: Harabara, Helvetica;
-	text-align: center;
-}
 
-.about_text {
-	font-size: 15px;
-	margin: auto;
-	color: white;
-	font-family: Arial;
-	text-align: left;
-	max-width: 1000px;
-}
 
-#about_image {
-	float: left;
-    margin: 0px 30px 30px 30px;
-}
 
-.link {
-	color: #9bc2cf;
-	text-decoration: none;
-}
 
 .logo {
-	width: 100px;
-	margin: 50px 50px 40px 40px;
-    padding: 0;
+	width: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+  padding: 0;
 }
 
 .logo_row {
 	margin: 0;
-    padding: 0;
-}	
+  padding: 0;
+}
 
 .project_img {
 	width: 150px;
@@ -139,7 +280,7 @@ body {
 .project_row {
 	margin: 0;
     padding: 0;
-}	
+}
 
 .description{
 	padding:15px;
@@ -147,7 +288,7 @@ body {
 	font-size: 14px;
   	font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   	color: white;
-  	opacity: 0; 
+  	opacity: 0;
   	position: relative;
   	z-index: 999;
 }

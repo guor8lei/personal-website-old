@@ -6,50 +6,95 @@
 	<title>Raymond Guo</title>
 
 	<link rel="stylesheet" href="main_style.css">
-	<link rel="shortcut icon" href="/favicon.ico" type="image/icon">
-	<link rel="icon" href="/favicon.ico" type="image/icon">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/icon">
+	<link rel="icon" href="images/favicon.ico" type="image/icon">
 </head>
 
 <body>
-
-	<div class = "title_slide" id = "home">
-		
-		<nav class = "navigation">
-			<ul class = "navigation_bar">
-				<li class = "nav_element" id = "nav_home"><a href="#home" class = "nav_link">Home</a></li>
-				<li class = "nav_element" id = "nav_about"><a href="#about" class = "nav_link">About</a></li>
-				<li class = "nav_element" id = "nav_projects"><a href="#projects" class = "nav_link">Projects</a></li>
-  				<li class = "nav_element"><a href="GuoRaymondResume.pdf" class = "nav_link" target=””>Resume</a></li>
-  				<li class = "nav_element" id = "nav_contact"><a href="#contact" class = "nav_link">Contact</a></li>
-			</ul>
-		</nav>	
-
-
-		<div class = "opening_text">
-			<h1 id="first_title">Hi, I'm Raymond.</h1>
-			<h1 id="second_title">I am a student at UC Berkeley passionate about computer science and biotechnology.</h1>
-		</div>	
-
-
-
 	</div>
 
-	<div class = "about" id = "about">
-		<h1 id = "about_title" class="section_title">About Me</h1>
+	<div class = "parallax">
+		<div class = "slide" id = "title">
+			<div class = "animated fadeInDown">
 
-		<p class = "about_text"><img id = "about_image" class = "img" src="images/profilePhoto.png" alt="My picture here." width="250px">Hi, I'm Raymond! I am a freshman at UC Berkeley majoring in Electrical Engineering and Computer Science (EECS). I'm also interested in computational biology and genetics.
-		</p>
+				<img id = "title_image" class = "img img-center" src="images/title_profile.jpg" width="250px">
+				<h1 id="first_title">Raymond Guo</h1>
+				<h1 id="second_title">uc berkeley student; cs + biotech enthusiast; movie watcher</h1>
 
-		<br>
+			</div>
 
-		<p class = "about_text"> I'm proficient in Python and Java, being a Oracle Certified Associate, Java SE 8 Programmer. I'm also familiar with shell scripting, as well as web development, using frameworks such as Django, query languages like GraphQL, and JavaScript libraries including React. This summer, I'll be interning as a system administrator intern at Johns Hopkins University Applied Physics Laboratory. Over the past few years, I have gained work experience by interning at the National Institutes of Health, University of Maryland, College Park, as well as a startup company, Bidbox, LLC. I also wrote a <a class="link" href="https://www.omicsonline.org/open-access/puromycin-selection-confounds-the-rnaseq-profiles-of-primary-humanerythroblasts-2329-8936-1000140.pdf" target="_">published research paper</a>, became a <a class="link" href="https://student.societyforscience.org/regeneronsts-scholars-2017" target="_">Regeneron Science Talent Search (STS)</a> semifinalist, and coded an <a class="link" href="https://play.google.com/store/apps/details?id=com.bidbox.bidboxcounttoten&hl=en" target="_">Android app</a>.</p>
+			<div class = "animated fadeInUp">
 
-		<br>
+				<div align="center" class = "logo_row">
+					<a class="link" href="mailto:guor.lei@berkeley.edu" target="_"><img id = "email" class = "logo" src="images/icons/mail.png" alt="Email logo here."></a>
+					<a class="link" href="https://www.linkedin.com/in/raymond-guo/" target="_"><img id = "linkedin" class = "logo" src="images/icons/linkedin.png" alt="LinkedIn logo here."></a>
+					<a class="link" href="https://github.com/guor8lei" target="_"><img id = "github" class = "logo" src="images/icons/github.png" alt="Github logo here."></a>
+					<a class="link" href="https://www.facebook.com/people/Raymond-Guo/100009237666854" target="_"><img id = "facebook" class = "logo" src="images/icons/facebook.png" alt="Facebook logo here."></a>
+					<a class="link" href="documents/GuoRaymondResume.pdf" target="_"><img id = "resume" class = "logo" src="images/icons/resume.png" alt="Facebook logo here."></a>
+				</div>
 
-		<p class = "about_text"> Outside of academics, I love speed-solving the Rubik's Cube, watching movies, and playing ice hockey. In my spare time, I maintain a small <a class="link" href="http://guodynasty.blogspot.com/" target="_">blog</a>, where I post my movie reviews.</p>
+				<p id = "menu_text">
+					<a class="menu_item" id = "about_button" href="#about"> about</a> ·
+					<a class="menu_item" id = "teaching_button" href="#teaching">teaching</a> ·
+					<a class="menu_item" id = "projects_button" href="#projects">projects</a> ·
+					<a class="menu_item" id = "courses_button" href="#courses">courses</a>
+				</p>
+
+			</div>
+		</div>
+
+		<div class = "slide" id = "about">
+			<h1 id = "about_title" class="section_title">About Me</h1>
+
+			<p class = "about_text">	<img id = "about_image" class = "img" src="images/profile_photo.jpg" alt="My picture here." width="250px">
+				Hi, I'm Raymond! I am a sophomore at the University of California, Berkeley majoring in Electrical Engineering and Computer Science (EECS).
+			</p>
+
+			<br>
+
+			<p class = "about_text">
+				Ever since high school, I've been fascinated by computer science and its far-reaching impacts. Ever since, I have been constantly exploring its many facets, from software development, to information technology, to research. In particular, I'm also interested in applying potential of computer science to biology and genetics.
+			</p>
+
+			<br>
+
+			<p class = "about_text">
+				I'm proficient in Python and Java, being a Oracle Certified Associate, Java SE 8 Programmer. I'm also familiar with shell scripting as well as web development frameworks such as React and Django.
+			</p>
+
+			<br>
+
+			<p class = "about_text">
+				I have had previous work experience at multiple companies and organizations, including Johns Hopkins University Applied Physics Laboratory (Network Engineer), Berkeley CodeBase (Software Engineer), National Institutes of Health (Bioinformatics Research Intern), BidBox, LLC (Mobile App Developer), and the University of Maryland (Computational Geography Research Intern).
+			</p>
+
+			<br>
+
+			<p class = "about_text">
+				Through these experiences, I have written a published <a class="link" href="documents/GuoResearch.pdf" target="_">published research paper</a>, was awarded as a <a class="link" href="https://student.societyforscience.org/regeneronsts-scholars-2017" target="_">Regeneron Science Talent Search (STS)</a> semifinalist, and coded an <a class="link" href="https://play.google.com/store/apps/details?id=com.bidbox.bidboxcounttoten&hl=en" target="_">Android app</a>.
+			</p>
+
+			<br>
+
+			<p class = "about_text">
+				Outside of academics, I love watching movies and playing ice hockey. When I have spare time, I write in a small <a class="link" href="http://guodynasty.blogspot.com/" target="_">blog</a>, where I post my thoughts on movies.
+			</p>
+
+			<p id = "menu_text">
+				<a class="menu_item" id = "home_button" href="#home"> home</a> ·
+				<a class="menu_item" id = "teaching_button" href="#teaching">teaching</a> ·
+				<a class="menu_item" id = "projects_button" href="#projects">projects</a> ·
+				<a class="menu_item" id = "courses_button" href="#courses">courses</a>
+			</p>
+
+		</div>
+
+		<div id = "copyright_icons"> Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a> </div>
+	</div>
 
 
-	</div>	
+
+<!--
 
 	<div class = "projects" id = "projects">
 		<h1 id = "contact_title"  class="section_title">My Projects</h1>
@@ -64,7 +109,7 @@
 				<p id = "nih_des" class='description'>Published Research</p>
 
 				<a id = "nih_lnk" class="description" href="https://www.omicsonline.org/open-access/puromycin-selection-confounds-the-rnaseq-profiles-of-primary-humanerythroblasts-2329-8936-1000140.pdf" target="_">PDF</a>
-			</div>	
+			</div>
 
 			<div id = "web_wrap" class='img_wrapper'>
 				<img id = "website" class = "project_img" src="images/website.png" alt="Website screenshot here."></a>
@@ -72,7 +117,7 @@
 				<p id = "web_des" class='description'>Personal Website</p>
 
 				<a id = "web_lnk" class='description' href="https://github.com/guor8lei/guor8lei.github.io" target="_">Github</a>
-			</div>	
+			</div>
 
 			<div id = "cct_wrap" class='img_wrapper'>
 
@@ -86,10 +131,10 @@
 				<br>
 
 				<a id = "cct_play" class='description' href="https://play.google.com/store/apps/details?id=com.bidbox.bidboxcounttoten&hl=en" target="_">Google Play Store</a>
-			</div>	
-			
-		</div>	
-	</div>	
+			</div>
+
+		</div>
+	</div>
 
 	<div class = "contact" id = "contact">
 		<h1 id = "contact_title"  class="section_title">Contact Me</h1>
@@ -99,15 +144,16 @@
 			<a class="link" href="https://www.linkedin.com/in/raymond-guo/" target="_"><img id = "linkedin" class = "logo" src="images/linkedin.png" alt="LinkedIn logo here."></a>
 			<a class="link" href="https://github.com/guor8lei" target="_"><img id = "github" class = "logo" src="images/github.png" alt="Github logo here."></a>
 			<a class="link" href="https://www.facebook.com/people/Raymond-Guo/100009237666854" target="_"><img id = "facebook" class = "logo" src="images/facebook.png" alt="Facebook logo here."></a>
-		</div>	
-	</div>	
+		</div>
+	</div>
+
+	!-->
 
 
 </body>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
 <script src="main_script.js"></script>
 
 </html>

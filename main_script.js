@@ -1,3 +1,53 @@
+$(".logo").hover(
+	function() {$(this).fadeTo(400, 0.5);},
+	function() {$(this).fadeTo(400, 1);});
+
+$(".link").hover(
+	function() {$(this).fadeTo(400, 0.5);},
+	function() {$(this).fadeTo(400, 1);});
+
+$(".menu_item").hover(
+	function() {
+		$(this).fadeOut(150, function() {
+			$(this).css('background-color', 'black');
+			$(this).css('color', 'white');
+			$(this).fadeTo(150, 1);
+		});
+	},
+	function() {
+		$(this).fadeOut(150, function() {
+			$(this).css('background-color', 'white');
+			$(this).css('color', 'black');
+			$(this).fadeTo(150, 1);
+		});
+});
+
+$("#about_button").click(function() {
+	var position = $("#about").offset().top;
+  $("HTML, BODY").animate({
+    scrollTop: position
+  }, 2000);
+});
+
+$("#home_button").click(function() {
+	$("HTML, BODY").animate({
+			scrollTop: 0
+	}, 2000);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $(".nav_element").hover(
 	function() {$(this).css('background-color', '#253f3f');},
 	function() {$(this).css('background-color', '#000000');});
@@ -8,12 +58,7 @@ $("#nav_home").click(function() {
         }, 1000);
 });
 
-$("#nav_about").click(function() {
-	var position = $("#about").offset().top;
-        $("HTML, BODY").animate({
-            scrollTop: position
-        }, 1000);
-});
+
 
 $("#nav_projects").click(function() {
 	var position = $("#projects").offset().top;
@@ -29,10 +74,6 @@ $("#nav_contact").click(function() {
         }, 1000);
 });
 
-
-$(".logo").hover(
-	function() {$(this).fadeTo("fast", 0.7);},
-	function() {$(this).fadeTo("fast", 1);});
 
 $("#nih_wrap").hover(
 	function() {
@@ -71,33 +112,3 @@ $("#cct_wrap").hover(
 		$("#cct_git").fadeTo("fast", 0);
 		$("#cct_play").fadeTo("fast", 0);
 	});
-
-
-$(function() {
-	var $msg = $('#first_title');
-	var $word_list = $('#first_title').text().split("");
-  	$('#first_title').text("");
- 	$.each($word_list, function(idx, elem) {
-    	var new_elem = $("<span/>").text(elem).css({
-      		opacity: 0
-    	});
-    	new_elem.appendTo($msg);
-    	new_elem.delay(idx * 70);
-    	new_elem.fadeTo('slow',1);
- 	});
-
-	setTimeout(function() {
-		$('#second_title').fadeTo('slow',1);
-	}, 2000);
-  
-
-    $(".navigation").hover(
-    	function () {
-        	$(".navigation").fadeTo('fast',1);
-        },
-        function () {
-        	if (document.documentElement.scrollTop!=0) {
-        		$(".navigation").fadeTo('fast',0);}
-        	}
-        );
-});
