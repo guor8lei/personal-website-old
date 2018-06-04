@@ -5,11 +5,14 @@ body {
 .slide {
 	background-size: cover;
 	background-color: white;
-	height: 100vh;
+	height: auto;
 	width: 100%;
 	margin: 0;
   padding: 0;
-	min-height: 600px;
+	min-height: 100vh;
+
+	border-style: dashed;
+	border-color: white;
 }
 
 .img-center {
@@ -20,22 +23,22 @@ body {
 
 @font-face {
 	font-family: Quicksand-Regular;
-	src: url(fonts/Quicksand-Regular.ttf);
+	src: url(../fonts/Quicksand-Regular.ttf);
 }
 
 @font-face {
 	font-family: Quicksand-Bold;
-	src: url(fonts/Quicksand-Bold.ttf);
+	src: url(../fonts/Quicksand-Bold.ttf);
 }
 
 @font-face {
 	font-family: Roboto-Regular;
-	src: url(fonts/Roboto-Regular.ttf);
+	src: url(../fonts/Roboto-Regular.ttf);
 }
 
 @font-face {
 	font-family: Roboto-Light;
-	src: url(fonts/Roboto-Light.ttf);
+	src: url(../fonts/Roboto-Light.ttf);
 }
 
 #first_title {
@@ -143,7 +146,7 @@ body {
 #about_image {
 	float: left;
   margin: 0px 30px 10px 0px;
-	border-radius: 50%;
+	border-radius: 25%;
 }
 
 .link {
@@ -153,7 +156,7 @@ body {
 
 .parallax {
     /* The image used */
-    background-image: url('images/berkeley_fog.jpg');
+    background-image: url('../images/berkeley_fog.jpg');
 
     /* Full height */
     height: 100%;
@@ -193,57 +196,10 @@ body {
 	background-color: white;
 	font-family: Roboto-Light;
 	font-size: 12px;
+
+	border-style: dotted;
+	border-color: white;
 }
-
-
-
-
-
-
-
-
-
-
-.navigation_bar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-	font-family: Harabara, Helvetica;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	background-color: black;
-	overflow: hidden;
-
-}
-
-.nav_element {
-	display: inline;
-	float: left;
-}
-
-
-.nav_link {
-	display: block;
-	padding: 15px;
-	color: white;
-	text-decoration: none;
-	font-size: 20px;
-}
-
-#projects{
-	background-color: black;
-	height: 100vh;
-}
-
-#contact{
-	background-color: black;
-	height: 100vh;
-}
-
-
-
-
 
 .logo {
 	width: 30px;
@@ -255,40 +211,4 @@ body {
 .logo_row {
 	margin: 0;
   padding: 0;
-}
-
-.project_img {
-	width: 150px;
-	margin: 0px;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	border-radius: 20px;
-	position:absolute;
-    left:0;
-    top:0;
-}
-
-.img_wrapper {
-	display: inline-block;
-	overflow: hidden;
-	position:relative;
-	height: 150px;
-    width: 150px;
-    margin:10px;
-}
-
-.project_row {
-	margin: 0;
-    padding: 0;
-}
-
-.description{
-	padding:15px;
-	margin:0px;
-	font-size: 14px;
-  	font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  	color: white;
-  	opacity: 0;
-  	position: relative;
-  	z-index: 999;
 }

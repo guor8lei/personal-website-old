@@ -1,0 +1,224 @@
+body {
+	background-color: white;
+}
+
+@font-face {
+	font-family: Quicksand-Regular;
+	src: url(../fonts/Quicksand-Regular.ttf);
+}
+
+@font-face {
+	font-family: Quicksand-Bold;
+	src: url(../fonts/Quicksand-Bold.ttf);
+}
+
+@font-face {
+	font-family: Roboto-Regular;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+	font-family: Roboto-Light;
+	src: url(../fonts/Roboto-Light.ttf);
+}
+
+.heading {
+	color: black;
+	font-family: Quicksand-Bold;
+	font-size: 50px;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+.subheading {
+	color: 	#A9A9A9;
+	font-family: Roboto-Light;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#wrapper {
+    height: 100%;
+}
+
+.courseall {
+	max-width: 700px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.coursecode {
+	font-family: Roboto-Regular;
+	font-size: 18px;
+	text-align: left;
+	float: left;
+	width: 100px;
+}
+
+.coursedate {
+	font-family: Roboto-Light;
+	font-size: 18px;
+	text-align: right;
+	float: right;
+	margin-left: 10px;
+}
+
+.coursename {
+	font-family: Roboto-Light;
+	font-size: 18px;
+	text-align: left;
+}
+
+.img-center {
+    display: block;
+		margin-left: auto;
+    margin-right: auto;
+}
+
+
+#berkeley_img {
+	border-radius: 50%;
+	margin-bottom: 25px;
+	margin-top: 50px;
+}
+
+.animated {
+	background-repeat: no-repeat;
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+    -webkit-transform: translateY(-60px);
+	}
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-60px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.fadeInDown {
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+    -webkit-transform: translateY(50px);
+	}
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.fadeInUp {
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+}
+
+#infinity {
+	width: 100%;
+	height: 70px;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.slide {
+	background-size: cover;
+	background-color: white;
+	height: auto;
+	width: 100%;
+	margin: 0;
+  padding: 0;
+	min-height: 100vh;
+
+	border-style: dashed;
+	border-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+.link {
+	color: #000080;
+	text-decoration: none;
+}
+
+#menu_text {
+	color: black;
+	font-family: Quicksand-Regular;
+	font-size: 30px;
+	text-align: center;
+	padding: 0px;
+	margin-top: 50px;
+}
+
+.menu_item {
+	text-decoration: none;
+	color: black;
+}
+
+#copyright_icons {
+	background-color: white;
+	font-family: Roboto-Light;
+	font-size: 12px;
+
+	border-style: dotted;
+	border-color: white;
+}
+
+.logo {
+	width: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+  padding: 0;
+}
+
+.logo_row {
+	margin: 0;
+  padding: 0;
+}
