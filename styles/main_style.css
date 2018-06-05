@@ -187,13 +187,19 @@ body {
 	color: black;
 }
 
-#copyright_icons {
+#footer {
 	background-color: white;
 	font-family: Roboto-Light;
 	font-size: 12px;
+	width: 100%
+}
 
-	border-style: dotted;
-	border-color: white;
+#copyright_icons {
+	float: left;
+}
+
+#copyright_icons {
+	float: right;
 }
 
 .logo {

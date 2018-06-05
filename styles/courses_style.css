@@ -213,3 +213,11 @@ body {
 	background-color: white;
 	display: none;
 }
+
+#footer {
+	background-color: white;
+	font-family: Roboto-Light;
+	font-size: 12px;
+	width: 100%;
+	text-align: center;
+}
