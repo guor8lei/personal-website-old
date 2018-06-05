@@ -12,8 +12,8 @@
 
 <body>
 	<div id = "wrapper">
-		<div id = "navbar" class = "animated fadeInDown">
-			<p id = "menu_text">
+		<div id = "navbar">
+			<p id = "moving_menu_text">
 				<a class="menu_item" id = "home_button" href="index.html">home</a> ·
 				<a class="menu_item" id = "teaching_button" href="#teaching">teaching</a> ·
 				<a class="menu_item" id = "projects_button" href="#projects">projects</a> ·
@@ -22,96 +22,133 @@
 		</div>
 		<div class = "body">
 			<div class = "animated fadeInDown">
+				<p id = "top_menu_text">
+					<a class="menu_item" id = "home_button" href="index.html">home</a> ·
+					<a class="menu_item" id = "teaching_button" href="#teaching">teaching</a> ·
+					<a class="menu_item" id = "projects_button" href="#projects">projects</a> ·
+					<a class="menu_item" id = "courses_button" href="courses.html">courses</a>
+				</p>
 				<img id = "berkeley_img" class = "img img-center" src="images/uc_berkeley.jpeg" width="150">
 				<h1 class="heading">Courses</h1>
 			</div>
 
 			<div class = "animated fadeInUp">
-
 				<h2 class="subheading">computer science</h2>
 				<div class = "courseall">
-					<div class="coursecode"> CS 61A </div>
-					<div class="coursedate"> Fall 2017 </div>
-					<div class="coursename"> Structure and Interpretation of Computer Programs </div>
+					<a class="link cs" href="https://www2.eecs.berkeley.edu/Courses/CS61A/" target="_">
+						<div class="coursecode"> CS 61A </div>
+						<div class="coursedate"> Fall 2017 </div>
+						<div class="coursename"> Structure and Interpretation of Computer Programs </div>
+					</a>
 				</div>
 				<div class = "courseall">
-					<div class="coursecode"> CS 61B </div>
-					<div class="coursedate"> Spring 2018 </div>
-					<div class="coursename"> Data Structures </div>
+					<a class="link cs" href="https://www2.eecs.berkeley.edu/Courses/CS61B/" target="_">
+						<div class="coursecode"> CS 61B </div>
+						<div class="coursedate"> Spring 2018 </div>
+						<div class="coursename"> Data Structures </div>
+					</a>
 				</div>
 				<div class = "courseall">
-					<div class="coursecode"> CS 61C </div>
-					<div class="coursedate"> Fall 2018 </div>
-					<div class="coursename"> Great Ideas of Computer Architecture (Machine Structures) </div>
+					<a class="link cs" href="https://www2.eecs.berkeley.edu/Courses/CS61C/" target="_">
+						<div class="coursecode"> CS 61C </div>
+						<div class="coursedate"> Fall 2018 </div>
+						<div class="coursename"> Great Ideas of Computer Architecture (Machine Structures) </div>
+					</a>
 				</div>
 				<div class = "courseall">
-					<div class="coursecode"> CS 70 </div>
-					<div class="coursedate"> Fall 2018 </div>
-					<div class="coursename"> Discrete Mathematics and Probability Theory </div>
+					<a class="link cs" href="https://www2.eecs.berkeley.edu/Courses/CS70/" target="_">
+						<div class="coursecode"> CS 70 </div>
+						<div class="coursedate"> Fall 2018 </div>
+						<div class="coursename"> Discrete Mathematics and Probability Theory </div>
+					</a>
 				</div>
 				<h2 class="subheading">electrical engineering</h2>
 				<div class = "courseall">
-					<div class="coursecode"> EE 16A </div>
-					<div class="coursedate"> Fall 2017 </div>
-					<div class="coursename"> Designing Information Devices and System I </div>
+					<a class="link ee" href="https://www2.eecs.berkeley.edu/Courses/EE16A/" target="_">
+						<div class="coursecode"> EE 16A </div>
+						<div class="coursedate"> Fall 2017 </div>
+						<div class="coursename"> Designing Information Devices and System I </div>
+					</a>
 				</div>
 				<div class = "courseall">
-					<div class="coursecode"> EE 16B </div>
-					<div class="coursedate"> Spring 2018 </div>
-					<div class="coursename"> Designing Information Devices and System II </div>
+					<a class="link ee" href="https://www2.eecs.berkeley.edu/Courses/EE16B/" target="_">
+						<div class="coursecode"> EE 16B </div>
+						<div class="coursedate"> Spring 2018 </div>
+						<div class="coursename"> Designing Information Devices and System II </div>
+					</a>
 				</div>
 				<h2 class="subheading">bioengineering</h2>
 				<div class = "courseall">
-					<div class="coursecode"> BioE 10 </div>
-					<div class="coursedate"> Fall 2018 </div>
-					<div class="coursename"> Introduction to Biomedicine for Engineers </div>
+					<a class="link bioe" href="http://guide.berkeley.edu/courses/bio_eng/" target="_">
+						<div class="coursecode"> BioE 10 </div>
+						<div class="coursedate"> Fall 2018 </div>
+						<div class="coursename"> Introduction to Biomedicine for Engineers </div>
+					</a>
 				</div>
 				<div class = "courseall">
-					<div class="coursecode"> BioE 25 </div>
-					<div class="coursedate"> Spring 2018 </div>
-					<div class="coursename"> Careers in Biotechnology </div>
+					<a class="link bioe" href="http://guide.berkeley.edu/courses/bio_eng/" target="_">
+						<div class="coursecode"> BioE 25 </div>
+						<div class="coursedate"> Spring 2018 </div>
+						<div class="coursename"> Careers in Biotechnology </div>
+					</a>
 				</div>
 				<div class = "courseall">
-					<div class="coursecode"> BioE 26 </div>
-					<div class="coursedate"> Fall 2018 </div>
-					<div class="coursename"> Introduction to Bioengineering </div>
+					<a class="link bioe" href="http://guide.berkeley.edu/courses/bio_eng/" target="_">
+						<div class="coursecode"> BioE 26 </div>
+						<div class="coursedate"> Fall 2018 </div>
+						<div class="coursename"> Introduction to Bioengineering </div>
+					</a>
 				</div>
-				<h2 class="subheading">other stem</h2>
+				<h2 class="subheading">other</h2>
 				<div class = "courseall">
-					<div class="coursecode"> Chem 3A </div>
-					<div class="coursedate"> Spring 2018 </div>
-					<div class="coursename"> Chemical Structure and Reactivity </div>
-				</div>
-				<div class = "courseall">
-					<div class="coursecode"> Chem 3AL </div>
-					<div class="coursedate"> Fall 2018 </div>
-					<div class="coursename"> Organic Chemistry Laboratory </div>
-				</div>
-				<div class = "courseall">
-					<div class="coursecode"> Phys 7B </div>
-					<div class="coursedate"> Spring 2018 </div>
-					<div class="coursename"> Physics for Scientists and Engineers</div>
+					<a class="link other" href="http://guide.berkeley.edu/search/?P=chem+3a" target="_">
+						<div class="coursecode"> Chem 3A </div>
+						<div class="coursedate"> Spring 2018 </div>
+						<div class="coursename"> Chemical Structure and Reactivity </div>
+					</a>
 				</div>
 				<div class = "courseall">
-					<div class="coursecode"> Math 53 </div>
-					<div class="coursedate"> Fall 2017 </div>
-					<div class="coursename"> Multivariable Calculus</div>
+					<a class="link other" href="http://guide.berkeley.edu/search/?P=chem+3al" target="_">
+						<div class="coursecode"> Chem 3AL </div>
+						<div class="coursedate"> Fall 2018 </div>
+						<div class="coursename"> Organic Chemistry Laboratory </div>
+					</a>
+				</div>
+				<div class = "courseall">
+					<a class="link other" href="http://guide.berkeley.edu/search/?P=physics+7b" target="_">
+						<div class="coursecode"> Phys 7B </div>
+						<div class="coursedate"> Spring 2018 </div>
+						<div class="coursename"> Physics for Scientists and Engineers</div>
+					</a>
+				</div>
+				<div class = "courseall">
+					<a class="link other" href="https://math.berkeley.edu/courses/choosing/lowerdivcourses/math53" target="_">
+						<div class="coursecode"> Math 53 </div>
+						<div class="coursedate"> Fall 2017 </div>
+						<div class="coursename"> Multivariable Calculus</div>
+					</a>
 				</div>
 				<h2 class="subheading">decals</h2>
 				<div class = "courseall">
-					<div class="coursecode"> CS 198 </div>
-					<div class="coursedate"> Fall 2017 </div>
-					<div class="coursename"> Blockchain Fundamentals </div>
+					<a class="link decal" href="https://blockchain.berkeley.edu/decal/fa17/fund/" target="_">
+						<div class="coursecode"> CS 198 </div>
+						<div class="coursedate"> Fall 2017 </div>
+						<div class="coursename"> Blockchain Fundamentals </div>
+					</a>
 				</div>
 				<div class = "courseall">
-					<div class="coursecode"> CS 198 </div>
-					<div class="coursedate"> Spring 2018 </div>
-					<div class="coursename"> Hands-On Unix SysAdmin DeCal </div>
+					<a class="link decal" href="https://decal.ocf.berkeley.edu/" target="_">
+						<div class="coursecode"> CS 198 </div>
+						<div class="coursedate"> Spring 2018 </div>
+						<div class="coursename"> Hands-On Unix SysAdmin DeCal </div>
+					</a>
 				</div>
 				<div class = "courseall">
-					<div class="coursecode"> CS 198 </div>
-					<div class="coursedate"> Spring 2018 </div>
-					<div class="coursename"> Virtual Reality DeCal </div>
+					<a class="link decal" href="https://vr.berkeley.edu/decal/" target="_">
+						<div class="coursecode"> CS 198 </div>
+						<div class="coursedate"> Spring 2018 </div>
+						<div class="coursename"> Virtual Reality DeCal </div>
+					</a>
 				</div>
 				<div id="infinity"> ∞ </div>
 			</div>

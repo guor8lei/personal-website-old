@@ -77,17 +77,16 @@ body {
     margin-right: auto;
 }
 
-
 #berkeley_img {
 	border-radius: 50%;
 	margin-bottom: 25px;
-	margin-top: 150px;
+	margin-top: 50px;
 }
 
 .animated {
 	background-repeat: no-repeat;
-	-webkit-animation-duration: 2s;
-	animation-duration: 2s;
+	-webkit-animation-duration: 1.5s;
+	animation-duration: 1.5s;
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
 }
@@ -159,11 +158,36 @@ body {
 }
 
 .link {
-	color: #000080;
+	color: black;
 	text-decoration: none;
+  -o-transition:color .2s ease-out, background 2s ease-in;
+  -ms-transition:color .2s ease-out, background 2s ease-in;
+  -moz-transition:color .2s ease-out, background 2s ease-in;
+  -webkit-transition:color .2s ease-out, background 2s ease-in;
+  transition:color .2s ease-out, background 2s ease-in;
 }
 
-#menu_text {
+.cs:hover {
+	color:red;
+}
+
+.ee:hover {
+	color:blue;
+}
+
+.bioe:hover {
+	color:green;
+}
+
+.other:hover {
+	color:purple;
+}
+
+.decal:hover {
+	color:orange;
+}
+
+#top_menu_text {
 	color: black;
 	font-family: Quicksand-Regular;
 	font-size: 30px;
@@ -172,9 +196,20 @@ body {
 	margin-top: 50px;
 }
 
+#moving_menu_text {
+	color: black;
+	font-family: Quicksand-Regular;
+	font-size: 20px;
+	text-align: center;
+	padding: 0px;;
+}
+
 #navbar {
 	position: fixed;
 	top: 0;
-	border-style: dotted;
-	width: 100%
+	width: 100%;
+	height: 50px;
+	z-index: 100;
+	background-color: white;
+	display: none;
 }
