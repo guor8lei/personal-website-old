@@ -1,10 +1,10 @@
 $(".logo").hover(
-	function() {$(this).fadeTo(200, 0.5);},
-	function() {$(this).fadeTo(200, 1);});
+	function() {$(this).fadeTo(150, 0.5);},
+	function() {$(this).fadeTo(150, 1);});
 
 $(".link").hover(
-	function() {$(this).fadeTo(300, 0.5);},
-	function() {$(this).fadeTo(300, 1);});
+	function() {$(this).fadeTo(150, 0.5);},
+	function() {$(this).fadeTo(150, 1);});
 
 $(".menu_item").hover(
 	function() {
