@@ -8,14 +8,14 @@ $(".link").hover(
 
 $(".menu_item").hover(
 	function() {
-		$(this).fadeOut(150, function() {
+		$(this).fadeOut(100, function() {
 			$(this).css('background-color', 'black');
 			$(this).css('color', 'white');
 			$(this).fadeTo(100, 1);
 		});
 	},
 	function() {
-		$(this).fadeOut(150, function() {
+		$(this).fadeOut(100, function() {
 			$(this).css('background-color', 'white');
 			$(this).css('color', 'black');
 			$(this).fadeTo(100, 1);
