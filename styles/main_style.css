@@ -163,12 +163,6 @@ body {
     background-size: cover;
 }
 
-@media only screen and (max-device-width: 1366px) {
-    .parallax {
-        background-attachment: scroll;
-    }
-}
-
 #title {
 	margin-bottom: 500px;
 }
