@@ -24,3 +24,14 @@ $(function () {
     }
   });
 });
+
+$(".publicationlink").hover(
+	function() {
+		$(this).fadeTo(150, 0.5);
+		$(this).css('text-decoration', 'none');
+	},
+	function() {
+		$(this).fadeTo(150, 1);
+		$(this).css('text-decoration', 'none');
+	}
+);

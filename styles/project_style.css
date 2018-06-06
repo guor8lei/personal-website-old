@@ -31,12 +31,31 @@ body {
 	margin: 0px;
 }
 
+.subheading {
+	color: 	#A9A9A9;
+	font-family: Roboto-Light;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 50px;
+}
+
 #wrapper {
     height: 100%;
 }
 
 #title {
 	margin-bottom: 50px;
+}
+
+.publications {
+	max-width: 700px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.publication {
+	font-size: 18px;
+	font-family: Roboto-Light;
 }
 
 .row {
@@ -188,6 +207,7 @@ body {
 .container {
   position: relative;
   width: 100%;
+	margin-bottom: 25px;
 }
 
 .image {
@@ -239,6 +259,10 @@ body {
 	font-family: Roboto-Light;
 }
 
+.sub2 {
+  top: 130px;
+}
+
 .links {
   font-size: 18px;
   top: 170px;
@@ -249,7 +273,16 @@ body {
 	top: 200px;
 }
 
+.links3 {
+	top: 210px;
+}
+
 .link {
 	color: white;
+	text-decoration: none;
+}
+
+.publicationlink {
+	color: #000080;
 	text-decoration: none;
 }
