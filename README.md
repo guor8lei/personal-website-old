@@ -1,3 +1,3 @@
-# guor8lei.github.io
+# Raymond's Personal Website
 
-This is my personal website! You can visit it here: www.raymondguo.me
+Hi there, this is my personal website! You can visit it here: www.raymondguo.me
