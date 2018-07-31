@@ -3,9 +3,10 @@
 <html lang="en">
 
 <head>
-	<title>Teaching | Raymond Guo</title>
+	<title>Contact | Raymond Guo</title>
 
-	<link rel="stylesheet" href="../styles/teaching_style.css">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+	<link rel="stylesheet" href="../styles/contact_style.css">
 	<link rel="shortcut icon" href="../images/favicon.ico" type="image/icon">
 	<link rel="icon" href="../images/favicon.ico" type="image/icon">
 
@@ -40,37 +41,28 @@
 					<a class="menu_item" id = "courses_button" href="../courses/">courses</a> ·
 					<a class="menu_item" id = "contact_button" href="../contact/">contact</a>
 				</p>
-				<img id = "teaching_img" class = "img img-center" src="../images/teaching.jpeg" width="150">
-				<h1 class="heading">Teaching</h1>
+				<img id = "contact_img" class = "img img-center" src="../images/contact.jpg" width="150">
+				<h1 class="heading">Contact</h1>
 			</div>
 
 			<div class = "animated fadeInUp">
-				<h2 class="subheading">office hours</h2>
 				<div class = "all">
-					<p class = "text">
-						TBA
-					</p>
-				</div>
-				<h2 class="subheading">general resources</h2>
-				<div class = "all">
-					<p class = "text">
-						I will post any guides and notes that I make here.
-					</p>
-				</div>
-				<br>
-				<div class = "all">
-					<a class="link cs61b" href="../documents/DisjointSets.pdf" target="_">
-						<div class="code"> CS61B </div>
-						<div class="date"> Spring 2018 </div>
-						<div class="name"> An Overview of Disjoint Sets </div>
-					</a>
-				</div>
-				<div class = "all">
-					<a class="link other" href="../documents/dns_tcp_ip.pdf" target="_">
-						<div class="code"> Misc. </div>
-						<div class="date"> Summer 2018 </div>
-						<div class="name"> Notes on DNS, TCP/IP </div>
-					</a>
+					<br>
+					<form class="pure-form pure-form-aligned" action="https://formspree.io/guor.lei@berkeley.edu" method="POST">
+					    <div class="pure-control-group">
+					            <input class="pure-input-1" id="name" type="text" placeholder="Name" name="name" required>
+					        </div>
+
+					        <div class="pure-control-group">
+					            <input class="pure-input-1" id="email" type="email" placeholder="Email" name="_replyto" required>
+					        </div>
+
+					        <div class="pure-control-group">
+											<textarea rows=10 class="pure-input-1" placeholder="Message" type="text" name="message" required></textarea>
+					        </div>
+
+					        <button type="submit" class="pure-button" style="width:100%">Send</button>
+					</form>
 				</div>
 				<div id = "infinity"> ~~~ ∞ ~~~ </div>
 				<div id = "footer">	© 2018 Raymond Guo </div>
@@ -81,6 +73,6 @@
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="../scripts/teaching_script.js"></script>
+<script src="../scripts/contact_script.js"></script>
 
 </html>
