@@ -47,17 +47,6 @@ body {
 	margin-bottom: 50px;
 }
 
-.publications {
-	max-width: 700px;
-	margin: auto;
-	margin-bottom: 10px;
-}
-
-.publication {
-	font-size: 18px;
-	font-family: Roboto-Light;
-}
-
 .row {
   display: flex;
 	max-width: 900px;
@@ -283,10 +272,5 @@ body {
 
 .link {
 	color: #add8e6;
-	text-decoration: none;
-}
-
-.publicationlink {
-	color: #000080;
 	text-decoration: none;
 }

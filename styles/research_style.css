@@ -49,35 +49,13 @@ body {
 	margin-bottom: 10px;
 }
 
-.code {
-	font-family: Roboto-Regular;
-	font-size: 18px;
-	text-align: left;
-	float: left;
-	width: 100px;
-}
-
-.date {
-	font-family: Roboto-Light;
-	font-size: 18px;
-	text-align: right;
-	float: right;
-	margin-left: 10px;
-}
-
-.name {
-	font-family: Roboto-Light;
-	font-size: 18px;
-	text-align: left;
-}
-
 .img-center {
     display: block;
 		margin-left: auto;
     margin-right: auto;
 }
 
-#teaching_img {
+#research_img {
 	border-radius: 50%;
 	margin-bottom: 25px;
 	margin-top: 50px;
@@ -161,29 +139,12 @@ body {
 	font-family: Roboto-Light;
 	font-size: 18px;
 	color: black;
-	text-align: center;
+	text-align: left;
 }
 
 .link {
-	color: black;
+	color: #000080;
 	text-decoration: none;
-  -o-transition:color .2s ease-out, background 2s ease-in;
-  -ms-transition:color .2s ease-out, background 2s ease-in;
-  -moz-transition:color .2s ease-out, background 2s ease-in;
-  -webkit-transition:color .2s ease-out, background 2s ease-in;
-  transition:color .2s ease-out, background 2s ease-in;
-}
-
-.other:hover {
-	color:red;
-}
-
-.cs61b:hover {
-	color:blue;
-}
-
-.oh:hover {
-	color: purple;
 }
 
 #top_menu_text {
@@ -219,4 +180,20 @@ body {
 	font-size: 12px;
 	width: 100%;
 	text-align: center;
+}
+
+.publications {
+	max-width: 700px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.publication {
+	font-size: 18px;
+	font-family: Roboto-Light;
+}
+
+.publicationlink {
+	color: #000080;
+	text-decoration: none;
 }
