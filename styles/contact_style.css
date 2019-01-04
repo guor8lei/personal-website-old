@@ -41,28 +41,6 @@ body {
 	margin-bottom: 10px;
 }
 
-.code {
-	font-family: Roboto-Regular;
-	font-size: 18px;
-	text-align: left;
-	float: left;
-	width: 100px;
-}
-
-.date {
-	font-family: Roboto-Light;
-	font-size: 18px;
-	text-align: right;
-	float: right;
-	margin-left: 10px;
-}
-
-.name {
-	font-family: Roboto-Light;
-	font-size: 18px;
-	text-align: left;
-}
-
 .img-center {
     display: block;
 		margin-left: auto;
@@ -150,7 +128,7 @@ body {
 }
 
 .text {
-	font-family: Roboto-Light;
+	font-family: Roboto-Regular;
 	font-size: 18px;
 	color: black;
 	text-align: center;
@@ -189,4 +167,9 @@ body {
 	font-size: 12px;
 	width: 100%;
 	text-align: center;
+}
+
+.link {
+	color: #000080;
+	text-decoration: none;
 }
