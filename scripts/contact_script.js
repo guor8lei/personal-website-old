@@ -14,7 +14,6 @@ $(".link").hoverIntent(
 	function() {
 		$(this).fadeTo(150, 0.5);
 		$(this).css('text-decoration', 'none');
-		console.log("yea");
 	},
 	function() {
 		$(this).fadeTo(150, 1);

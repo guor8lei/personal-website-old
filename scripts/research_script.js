@@ -12,11 +12,14 @@
 
 $(".link").hoverIntent(
 	function() {
-		$(this).children().fadeTo(150, 0.5);
+		$(this).fadeTo(150, 0.5);
+		$(this).css('text-decoration', 'none');
 	},
 	function() {
-		$(this).children().fadeTo(150, 1);
-	});
+		$(this).fadeTo(150, 1);
+		$(this).css('text-decoration', 'none');
+	}
+);
 
 $(".menu_item").hoverIntent(
 	function() {

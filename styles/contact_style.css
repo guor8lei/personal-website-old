@@ -128,7 +128,7 @@ body {
 }
 
 .text {
-	font-family: Roboto-Regular;
+	font-family: Roboto-Light;
 	font-size: 18px;
 	color: black;
 	text-align: center;
@@ -172,4 +172,5 @@ body {
 .link {
 	color: #000080;
 	text-decoration: none;
+	font-family: Roboto-Regular;
 }

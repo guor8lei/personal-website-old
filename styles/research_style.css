@@ -193,7 +193,8 @@ body {
 	font-family: Roboto-Light;
 }
 
-.publicationlink {
+.link {
 	color: #000080;
 	text-decoration: none;
+	font-family: Roboto-Regular;
 }
